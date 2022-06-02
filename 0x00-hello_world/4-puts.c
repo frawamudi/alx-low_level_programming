@@ -1,9 +1,13 @@
 #include <stdio.h>
 
 /**
- * Description: This c program outputs a string.
- * main: Entry point of the program
- * Return: 0 if exited properly, non-zero otherwise
+ * This c program outputs a string.
+ *
+ * Description: Puting out a string with put function.
+ *
+ * main: Entry point of the program.
+ *
+ * Return: 0 if exited properly, non-zero otherwise.
  */
 
 int main(void)
