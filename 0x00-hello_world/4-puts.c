@@ -2,8 +2,7 @@
 
 /**
  * main: Entry point
- * Description: This c program outputs string Programming is like
- * building a multilingual puzzle.
+ * Description: This c program outputs a string
  * Return: 0 if exited properly, non-zero otherwise
  */
 
