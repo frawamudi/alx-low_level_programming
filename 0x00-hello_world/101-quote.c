@@ -8,8 +8,8 @@
 
 int main(void)
 {
-	char *my_string = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
-	fprintf(stdout,"%s", my_string);
-	return (1);
+char *my_string = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
+fprintf(stdout,"%s", my_string);
+return (1);
 }
 
