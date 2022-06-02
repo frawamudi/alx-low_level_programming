@@ -1,7 +1,6 @@
 #include <stdio.h>
 
 /**
- * main: Entry point
  * Description: This c program outputs a string.
  * Return: 0 if exited properly, non-zero otherwise
  */
