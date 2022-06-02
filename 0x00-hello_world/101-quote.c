@@ -8,10 +8,10 @@
 
 int main(void)
 {
-	char *my_string = "and that piece of art is useful"; 
+	char *my_string = "and that piece of art is useful\""; 
 	char *my_string_cat =" - Dora Korpar, 2015-10-19\n";
-	fprintf(stdout,"%s", my_string);
-	fprintf(stdout,"%s", my_string_cat);
+	fprintf(stdout, "%s", my_string);
+	fprintf(stdout, "%s", my_string_cat);
 	return (1);
 }
 
