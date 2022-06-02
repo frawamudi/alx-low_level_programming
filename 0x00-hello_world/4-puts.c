@@ -1,8 +1,6 @@
 #include <stdio.h>
 
 /**
- * This c program outputs a string.
- *
  * Description: Puting out a string with put function.
  *
  * main: Entry point of the program.
