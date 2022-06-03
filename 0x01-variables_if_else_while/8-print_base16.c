@@ -1,19 +1,17 @@
 #include <stdio.h>
 
 /**
- * main - prints out the alphabet in reverse
+ * main - prints out all the numbers of base 16 in lowercase
  * Return: 0
  */
 int main(void)
 {
-	char a = 'z';
+	int i;
 
-	while (a >= 'a')
-	{
-		putchar(a);
-		a--;
-	}
-
+	for (i = 48; i < 58; i++)
+		putchar(i);
+	for (i = 'a'; i <= 'f'; i++)
+		putchar(i);
 	putchar('\n');
 	return (0);
 }
