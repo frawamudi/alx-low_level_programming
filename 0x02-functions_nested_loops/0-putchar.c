@@ -9,13 +9,13 @@ int main(void)
 {
 	char *my_string = "_putchar";
 
-	while(*my_string != '\0')
+	while (*my_string != '\0')
 	{
-		_putchar(*my_string);
-		my_string ++;
+		_putchar (*my_string);
+		my_string++;
 	}
 
-	_putchar('\n');
+	_putchar ('\n');
 
 	return(0);
 }
