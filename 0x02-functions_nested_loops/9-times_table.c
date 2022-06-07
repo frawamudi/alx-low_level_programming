@@ -1,7 +1,8 @@
 #include "main.h"
 
+
 /**
- * main - check the code for Holberton School students.
+ * times_table - check the code for Printing 9times table students.
  *
  * Return: Always 0.
  */
