@@ -9,7 +9,7 @@ int main(void)
 {
 	char my_string[] = "_putchar";
 
-	while( *my_string != '\0')
+	while(*my_string != '\0')
 	{
 		_putchar(*my_string);
 		my_string++;
