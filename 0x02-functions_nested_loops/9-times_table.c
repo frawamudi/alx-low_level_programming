@@ -17,14 +17,18 @@ void times_table(void)
 			if(prod <= 9)
 			{
 				_putchar(prod + 48);
-				_putchar(',');
-				_putchar(' ');
-				_putchar(' ');
+				if(j != '9')
+				{
+					_putchar(',');
+					_putchar(' ');
+					_putchar(' ');
+				}
 			}
 			else
 			{
 				_putchar((prod /10) + 48);
 				_putchar((prod % 10) + 48);
+				if(j !=9)
 				_putchar(',');
 				_putchar(' ');
 			}
