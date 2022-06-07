@@ -7,7 +7,7 @@
 
 int main(void)
 {
-	char my_string[] = "_putchar";
+	char *my_string = "_putchar";
 
 	while(*my_string != '\0')
 	{
