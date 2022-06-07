@@ -16,20 +16,20 @@ int main(void)
 			prod = i*j;
 			if(prod <= 9)
 			{
-				putchar(prod + 48);
-				putchar(',');
-				putchar(' ');
+				_putchar(prod + 48);
+				_putchar(',');
+				_putchar(' ');
 			}
 			else
 			{
-				putchar((prod /10) + 48);
-				putchar((prod % 10) + 48);
-				putchar(',');
-				putchar(' ');
+				_putchar((prod /10) + 48);
+				_putchar((prod % 10) + 48);
+				_putchar(',');
+				_putchar(' ');
 			}
 
 		}
-		putchar('\n');
+		_putchar('\n');
 	}
 	return (0);
 }
