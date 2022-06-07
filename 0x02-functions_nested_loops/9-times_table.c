@@ -19,6 +19,7 @@ void times_table(void)
 				_putchar(prod + 48);
 				_putchar(',');
 				_putchar(' ');
+				_putchar(' ');
 			}
 			else
 			{
