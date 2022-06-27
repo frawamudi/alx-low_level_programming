@@ -1,1 +1,1 @@
-C malloc and free functions
+C malloc and free function
